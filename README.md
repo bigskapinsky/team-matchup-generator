@@ -54,9 +54,10 @@ I did a few benchmark tests to see how the compute time rises as more teams are 
 |      12 |           27.613 |    11018 |
 |      12 |           2.7094 |     1073 |
 |      12 |            23.33 |     9256 |
+|      14 |          747.651 |   239418 |
 
 The time increase seems to follow a power series:
 
-![image](https://github.com/bigskapinsky/team-matchup-generator/assets/11352293/6841f501-f82a-47de-b284-a829d7d9c6b6)
+![image](https://github.com/bigskapinsky/team-matchup-generator/assets/11352293/ea21c1cc-1eb3-426f-82e4-857f142fac57)
 
 If you can think of a more efficient way to compute this to get it down to polynomial or even linear time... Fork away!
